@@ -13,6 +13,7 @@ import {
 import api from './services/api';
 
 export default function App() {
+    var a;
 
     const [repositories, setRepositories] = useState([]);
 
